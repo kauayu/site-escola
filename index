@@ -12,9 +12,9 @@
             vai ser uma imagem aqui
         </h1>
         <nav>
-        <ul>
-            <li>escola</li>
-            <li>Estudante</li>
+        <ul class="cabecalho-lista">
+            <li class="cabecalio-lista-itens"> escola</li>
+            <li class="cabecalho-lista-itens">Estudante</li>
         </ul>
         </nav>
     </header>
@@ -25,9 +25,11 @@
             <p class="escola-texto-um">descrição da escola</p>
             <p class="escola-texto-dois">descrição da turma</p>
         </div>
-        <img class="escola-imagem" src="" alt="imagem da escola">
+        <img class="escola-imagem" src="imagem-escola.jpg" alt="imagem da escola">
     </section>
-    <section class="estudantes"></section>
+    <section class="estudantes">
+        <h2 class="estudantes-titulo">quem são nossos estudantes</h2>
+    </section>
 
 </body>
 </html>
