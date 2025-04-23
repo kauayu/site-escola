@@ -6,6 +6,6 @@
 .cabecalho{
     background-color: #42e61;
     color: white;
-    dispaly: flex;
+    display: flex;
     justify-content: space-around;
 }
