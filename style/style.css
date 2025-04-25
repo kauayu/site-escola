@@ -8,7 +8,16 @@
     color: white;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
 }
+
+.cabecalho-lista-intem{
+   display: inline-block;
+   margin: 0 16px; 
+   font-size: 24px;
+}
+
 
 .escola-imagem{
     width: 30%;
