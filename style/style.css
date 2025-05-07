@@ -50,7 +50,7 @@
 
 .estudantes-todos{
     display: grid;
-    grid-template-columns: 10% 10% 10% 10% 10%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
 .estudantes-titulo{
