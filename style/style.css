@@ -90,3 +90,31 @@ body{
     height: 60px;
     padding: 12px 0;
 }
+
+
+@media (max-width: 768px) {
+    .cabecalho{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cabecalho-lista-intem{
+        display: block;
+        margin: 8px 0;
+    }
+
+    .escola{
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .escola-imagem{
+        width: 80%;
+        margin-top: 16px;
+    }
+
+    .escola-conteudo{
+        width: 100%;
+    }
+}
