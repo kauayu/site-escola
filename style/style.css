@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
 .cabecalho{
     background-color: #424e61;
     color: white;
@@ -16,6 +22,12 @@
    display: inline-block;
    margin: 0 16px; 
    font-size: 24px;
+}
+
+.cabecalho-imagem{
+    width: 110px;
+    height: 90px;
+    border-radius: 50%;
 }
 
 .escola-imagem{
@@ -65,4 +77,16 @@
 .estudantes-icone{
     width: 24px;
     padding: 4px 8px;
+}
+
+.rodape{
+    background-color: #424e61;
+    text-align: center;
+    color:white;
+    font-size:25px;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
 }
