@@ -24,11 +24,11 @@ body{
    font-size: 24px;
 }
 
-.cabecalho-imagem{
+  .cabecalho-imagem{
     width: 110px;
     height: 90px;
     border-radius: 50%;
-}
+  }
 
 .escola-imagem{
     width: 30%;
@@ -70,16 +70,16 @@ body{
     padding: 24px 0;
 }
 
-.estudantes-imagem{
-    width: 24px;
-}
+.estudantes-imagem {
+    width: 100px;
+ }
 
-.estudantes-icone{
+ .estudantes-icone {
     width: 24px;
     padding: 4px 8px;
 }
 
-.rodape{
+  .rodape{
     background-color: #424e61;
     text-align: center;
     color:white;
@@ -94,8 +94,8 @@ body{
 
 @media (max-width: 768px) {
     .cabecalho{
-        flex-direction: column;
-        text-align: center;
+      flex-direction: column;
+      text-align: center;
     }
 
     .cabecalho-lista-intem{
@@ -106,10 +106,10 @@ body{
     .escola{
         flex-direction: column;
         text-align: center;
-        padding: 10px;
+        padding: 16px;
     }
     
-    .escola-imagem{
+    .escola-imagem {
         width: 80%;
         margin-top: 16px;
     }
@@ -119,7 +119,7 @@ body{
     }
 
     .estudantes-todos{
-        grid-template-columns: repeat(auto-ft, mimax(150px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         padding: 0 16px;
     }
 }
